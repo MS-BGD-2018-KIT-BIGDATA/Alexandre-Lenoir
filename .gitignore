@@ -103,3 +103,4 @@ ENV/
 # Eclipse prooject files
 .project
 .pydevproject
+.metadata

@@ -51,7 +51,7 @@ def main():
     soup = BeautifulSoup(content.text, 'html.parser')
     table_entries = soup.find_all("tr", limit=257)
     top_contributors = []
-    for i in range(1, 8):
+    for i in range(1, 257):
         link = table_entries[i].find("a")
         url = link.get("href")
         name = link.string
